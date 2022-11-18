@@ -1,0 +1,39 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Online Payment Integrations",
+        "description": "API Integrating mostly used online payments",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:8080",
+    "basePath": "/api/v1",
+    "tags": [
+        {
+            "name": "Mpesa",
+            "description": "API for M-Pesa Payments"
+        }
+    ],
+    "schemes": ["http", "https"],
+    "consumes": ["application/json"],
+    "produces": ["application/json"],
+    "paths": {
+        "/m-pesa/stk-push": {
+            "get": {
+                "tags": ["Mpesa"],
+                "description": "STK Push Mpesa",
+                "parameters": [],
+                "produces": ["application/json"],
+                "responses": {
+                    "200": {
+                        "description": "Payment Successfull"
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {}
+}
