@@ -1,1 +1,1 @@
-export { default as getCurrentTimeStamp } from "./timestamp"
+export { default as getCurrentTimeStamp } from "./timestamp";
