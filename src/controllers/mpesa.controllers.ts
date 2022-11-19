@@ -2,6 +2,7 @@ import { RequestHandler } from "express";
 import { IPaymentItem } from "../interface";
 import { MpesaApi } from "../models";
 
+// To be tested
 export const getOAuthToken: RequestHandler = async (req, res) => {
   const mpesaApi = new MpesaApi();
 
