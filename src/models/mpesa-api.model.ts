@@ -3,7 +3,7 @@ import { Buffer } from "buffer";
 import axios from "axios";
 import { getCurrentTimeStamp } from "../utils";
 import { IPaymentItem } from "../interface";
-11111
+1111
 class MpesaApi {
   // mpesaApi: any;
   consumerKey = process.env.MPESA_CONSUMER_KEY ?? "";
