@@ -1,7 +1,7 @@
 import { RequestHandler } from "express";
 import { IPaymentItem } from "../interface";
 import { MpesaApi } from "../models";
-
+1111
 // To be tested
 export const getOAuthToken: RequestHandler = async (req, res) => {
   const mpesaApi = new MpesaApi();
